@@ -1,0 +1,2 @@
+{"id":"src-d111","title":"Smoke test issue","status":"closed","type":"bug","priority":1,"createdAt":"2026-08-14T21:43:00.556Z","updatedAt":"2026-08-14T21:44:49.727Z","description":"created via dagmar wrapper","labels":["smoke","dagmar","verified"],"blocks":["src-a86a"],"closedAt":"2026-08-14T21:44:49.727Z","closeReason":"done"}
+{"id":"src-a86a","title":"Second issue","status":"open","type":"task","priority":2,"createdAt":"2026-08-14T21:44:26.118Z","updatedAt":"2026-08-14T21:44:49.727Z"}
