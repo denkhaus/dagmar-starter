@@ -1,0 +1,2 @@
+{"type":"decision","classification":"tactical","recorded_at":"2026-08-14T21:48:10.214Z","evidence":{"seeds":"src-d111"},"title":"dagger wrapper","rationale":"vendor-agnostic layer","id":"mx-af176a","outcomes":[{"status":"success","recorded_at":"2026-08-14T21:53:22.490Z","duration":4200,"agent":"factory","notes":"worked"}]}
+{"type":"convention","classification":"tactical","recorded_at":"2026-08-14T21:46:16.782Z","tags":["style"],"content":"Avoid any in Go","id":"mx-6c126e"}
