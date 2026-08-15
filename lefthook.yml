@@ -1,0 +1,18 @@
+# Lefthook — Git hooks for dagmar-starter
+# Docs: https://lefthook.dev/configuration/
+# Test a single hook: `lefthook run pre-commit`
+# Skip locally:       `LEFTHOOK=0 git commit ...`
+
+pre-commit:
+  parallel: true
+  commands:
+    betterleaks:
+      tags: [security]
+      run: betterleaks protect --staged
+
+# Optional: scan the entire history before pushing
+# pre-push:
+#   commands:
+#     betterleaks-full:
+#       tags: [security]
+#       run: betterleaks detect --redact

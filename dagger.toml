@@ -1,0 +1,9 @@
+[modules.dagmar-go-sdk]
+source = "github.com/dagger/go-sdk"
+
+[modules.dagmar-hooks]
+source = "github.com/denkhaus/dagmar-hooks"
+entrypoint = true
+
+[modules.dagmar-go-sdk.as-sdk]
+name = "go"
